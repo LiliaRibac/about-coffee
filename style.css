@@ -74,7 +74,7 @@ body {
 
 .card-body p {
   font-family: 'Muli';
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.5;
   padding: 1rem
 }
@@ -133,10 +133,10 @@ body {
   padding: .5rem 0;
 }
 
-.fun{
+.fun {
   background-color: #5C2E00;
   border: 1px solid #42210B;
-  color:#ffffdb;
+  color: #ffffdb;
   border: none;
   text-align: center;
   /* position: absolute;
@@ -145,7 +145,7 @@ body {
   font-size: 100%;
   text-transform: uppercase;
   margin-left: 2rem;
-  padding:1rem;
+  padding: 1rem;
 }
 
 
@@ -242,9 +242,8 @@ a.footer-link {
     width: 70%;
   }
 
-  .reasons,
-  .coffe-history p {
-    font-size: 1rem;
+  .reasons .coffe-history p {
+    font-size: 1.1rem;
   }
 
   .reasons h3,
@@ -257,11 +256,113 @@ a.footer-link {
   }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+  .carousel-caption {
+    position: absolute;
+    top: 35%;
 
-@media (max-width: 576px) {}
+  }
 
+  .carousel-caption h1 {
+    font-family: 'Montserrat';
+    /* font-size: 100%; */
+  }
 
+  .carousel-caption h3 {
+    font-family: 'Montserrat';
+    font-size: 1rem;
+  }
+
+  .best10-coffee,
+  .why-coffe h1,
+  .history h1 {
+    font-family: 'Ubuntu';
+    font-size: 200%;
+  }
+
+  .history hr {
+    width: 70%;
+  }
+
+  .reasons .coffe-history p {
+    font-size: 1.1rem;
+  }
+
+  .reasons h3,
+  .card-body h2 {
+    font-size: 1.3rem;
+  }
+
+  .card-body p {
+    font-size: 1rem;
+  }
+
+  .footer h2 {
+    /* font-family: 'Ubuntu'; */
+    font-size: 150%;
+    /* text-transform: uppercase; */
+    margin: 1rem;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption {
+    position: absolute;
+    top: 30%;
+
+  }
+
+  .carousel-caption h1 {
+    font-size: 2rem;
+
+  }
+
+  .carousel-caption h3 {
+    font-size: .9rem;
+  }
+
+  .best10-coffee,
+  .why-coffe h1,
+  .history h1 {
+    font-family: 'Ubuntu';
+    font-size: 200%;
+    padding: .3rem;
+  }
+
+  .history hr {
+    width: 95%;
+  }
+
+  .reasons, .coffe-history p {
+    font-size: 1rem;
+  }
+
+  .reasons h3,
+  .card-body h2 {
+    font-size: 1.3rem;
+  }
+
+  .card-body p {
+    font-size: 1rem;
+  }
+
+  .footer h2 {
+    /* font-family: 'Ubuntu'; */
+    font-size: 150%;
+    /* text-transform: uppercase; */
+    margin: 1rem;
+    font-weight: bold;
+  }
+  .link,
+  .btn-outline-dark {
+    margin: 1rem;
+  }
+.gif{
+  margin: 1rem;
+  
+ }
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
